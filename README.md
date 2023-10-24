@@ -118,10 +118,13 @@ all_data$day_of_week <- factor(all_data$day_of_week, levels = c("Sunday", "Monda
 
 #### Summary Statistics
 
+[Link](https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/blob/main/summary_statastics.png) to summary statistics. 
+
 ### SHARE
 
 ##### Data Visualizations
 
+[Link](https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/tree/main/Data%20Visaualsations) to all of my graphs individually
 
 
 ### ACT
