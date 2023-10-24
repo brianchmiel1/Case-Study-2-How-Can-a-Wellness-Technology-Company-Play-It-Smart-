@@ -32,7 +32,7 @@ beauty, and mindfulness based on their lifestyle and goals.
 
 #### Business Task
 
-The bussiness task is to focus on a Bellabeat product and analyze smart device usage data in order to gain
+The business task is to focus on a Bellabeat product and analyze smart device usage data in order to gain
 insight into how people are already using their smart devices. Then, using this information, create high-level
 recommendations for how these trends can inform Bellabeat marketing strategy.
 
