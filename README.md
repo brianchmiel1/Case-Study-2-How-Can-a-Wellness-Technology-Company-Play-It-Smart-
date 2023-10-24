@@ -122,15 +122,15 @@ all_data$day_of_week <- factor(all_data$day_of_week, levels = c("Sunday", "Monda
 
 ### SHARE
 
-##### Data Visualizations
+#### Data Visualizations
 
 [Link](https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/tree/main/Data%20Visaualsations) to all of my graphs individually
 
-##### Sedentary Minutes Per Day
+#### Sedentary Minutes Per Day
 
 The more active days of the week are Thursday, Friday and Saturday. These are the days that people are going out and having fun. The least active days are Sundays and Mondays. I believe that this is most likely that people on Sunday are resting for the work week and then on Monday and Tuesdays people are more tired from work because they are just getting back into the swing of things. 
 
-##### Total Minutes Asleep vs Total Steps
+#### Total Minutes Asleep vs Total Steps
 
 Looking at this graph, there seems to be a negative relationship between sleep and total steps, this might be because that the more you sleep the less time you have to workout.
 
