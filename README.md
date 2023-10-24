@@ -69,7 +69,52 @@ I used RStudio for my data cleaning, analysis and visualisations as the data set
 
 #### Import and Explore
 
-All of the R code can be found with this [link] (https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/blob/main/r_script).
+All of the R code can be found with this [link](https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/blob/main/r_script).
+
+1.I loaded in the packages I will be using, tidyverse and janitor. 
+2. Loaded and renamed the CSV files 
+
+```
+activity <- clean_names(read_csv("dailyActivity_merged.csv"))
+sleep <- clean_names(read_csv("sleepDay_merged.csv"))
+weight <- clean_names(read_csv("weightLogInfo_merged.csv"))
+```
+3. Checked to make sure the files were loaded correctly into RStudio
+4. Converted ID to character, sleep_date to data and activity _date to date
+```
+activity <- activity %>% 
+  mutate_at(vars(id), as.character) %>% 
+  mutate_at(vars(activity_date), as.Date, format = "%m/%d/%y") %>% 
+  rename("date"="activity_date")
+sleep <- sleep %>% 
+  mutate_at(vars(id), as.character) %>% 
+  mutate_at(vars(sleep_day), as.Date, format = "%m/%d/%y") %>% 
+  rename("date"="sleep_day")
+weight <- weight %>% 
+  mutate_at(vars(id), as.character) %>% 
+  mutate_at(vars(date), as.Date, format = "%m/%d/%y") %>% 
+  mutate_at(vars(log_id), as.character) %>% 
+  mutate_at(vars(bmi), as.numeric)
+```
+5. Recheked data to make sure it correctly changed with the head() function.
+6. Combined activity and sleep data
+```
+activity_and_sleep <- merge(activity, sleep, by = c("id","date"), all=TRUE)
+```
+7. Combine the new data frame with weight, add in day of the week column
+```
+all_data <- merge(weight, activity_and_sleep, by = c("id", "date"), all=TRUE) %>% 
+  mutate(day_of_week = weekdays(as.Date(date, "m/%d/%y")))
+```
+8. Removed duplicates
+```
+all_data <- all_data[!duplicated(all_data), ]
+```
+9. Make the days of the week in order (better for visualisations)
+```
+all_data$day_of_week <- factor(all_data$day_of_week, levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))
+```
+
 
 #### Summary Statistics
 
