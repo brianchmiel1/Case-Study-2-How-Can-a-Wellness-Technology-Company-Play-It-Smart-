@@ -2,6 +2,7 @@
 ## Google Data Analytics Capstone 
 
 ### Introduction
+
 Bellabeat is a high-tech company that manufactures health-focused smart products. Developed products that  informs and inspires women around the
 world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with
 knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly
@@ -11,12 +12,15 @@ insight into how people are already using their smart devices. Then, using this 
 recommendations for how these trends can inform Bellabeat marketing strategy.
 
 ### ASK
+
 #### Stakeholders
+
 1. Urška Sršen: Bellabeat’s cofounder and Chief Creative Officer
 2. Sando Mur: Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team
 3. Bellabeat marketing analytics team: A team of data analysts responsible for collecting, analyzing, and
 reporting data that helps guide Bellabeat’s marketing strategy.
 #### Products
+
 1. Bellabeat App: Pprovides users with health data related to their activity, sleep, stress,
 menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and
 make healthy decisions. The Bellabeat app connects to their line of smart wellness products.
@@ -27,30 +31,42 @@ make healthy decisions. The Bellabeat app connects to their line of smart wellne
 beauty, and mindfulness based on their lifestyle and goals.
 
 #### Business Task
+
 The bussiness task is to focus on a Bellabeat product and analyze smart device usage data in order to gain
 insight into how people are already using their smart devices. Then, using this information, create high-level
-recommendations for how these trends can inform Bellabeat marketing strategy.****
+recommendations for how these trends can inform Bellabeat marketing strategy.
+
 #### Key Questions
+
 * What are some trends in smart device usage?
 * How could these trends apply to Bellabeat customers?
 * How could these trends help influence Bellabeat marketing strategy?
 * Are there any noticible gaps of usage that could be filled by marketing that feature? 
 ### PREPARE
+
 #### Data Sources
+
+FitBit Fitness Tracker Data which can be on [Kaggle]( https://www.kaggle.com/datasets/arashnic/fitbit) in 18 CSV files. The data set
+contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of
+personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes
+information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 
 ##### Data Limitations
 
 ### PROCESS
+
 #### Picking data files
 
 #### Applications Used
 
 ### ANALYZE
+
 #### Import and Explore
 
 #### Summary Statistics
 
 ### SHARE
+
 ##### Data Visualizations
 
 
