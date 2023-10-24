@@ -60,11 +60,16 @@ information about daily activity, steps, and heart rate that can be used to expl
 
 #### Picking data files
 
+I picked `dailyActivity_merged.csv ` and  `sleepDay_merged.csv` files because they included a good summary of the data for both their intended categories of activity and sleep. I included `weightLogInfo_merged` because they weight is a large piece of health data as most people are trying to lower it. 
+
 #### Applications Used
+I used RStudio for my data cleaning, analysis and visualisations as the data sets were not too large and I could do all of them in one application easily. 
 
 ### ANALYZE
 
 #### Import and Explore
+
+All of the R code can be found with this [link] (https://github.com/brianchmiel1/Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart-/blob/main/r_script).
 
 #### Summary Statistics
 
