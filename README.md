@@ -53,6 +53,9 @@ information about daily activity, steps, and heart rate that can be used to expl
 
 ##### Data Limitations
 
+* The sample size of the data set is small since it only uses data from 30 users
+* The data set is from 2016 and currently it is 2023, which makes this data 7 years old.
+
 ### PROCESS
 
 #### Picking data files
@@ -72,3 +75,6 @@ information about daily activity, steps, and heart rate that can be used to expl
 
 
 ### ACT
+
+* One of the big things that stuck out to me was that weight was only logged 67 times and only 26 of the time was that it was logged by a device and not manually. I believe that Bellabeat is missing a large market that they could get into. I would suggest that they introduce a smart scale that will automattically log the users weight and other measuraments into the Bellabeat app so that users could track that data more easily.
+* 
