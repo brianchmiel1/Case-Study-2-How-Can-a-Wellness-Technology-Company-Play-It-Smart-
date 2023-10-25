@@ -1,4 +1,4 @@
-# Case-Study-2-How-Can-a-Wellness-Technology-Company-Play-It-Smart?
+# Bellabeats Data Analysis
 ## Google Data Analytics Capstone 
 
 ### Introduction
