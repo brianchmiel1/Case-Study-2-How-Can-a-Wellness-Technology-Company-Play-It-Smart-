@@ -137,6 +137,6 @@ Looking at this graph, there seems to be a negative relationship between sleep a
 
 ### ACT
 
-* One of the big things that stuck out to me was that weight was only logged 67 times and only 26 of the time was that it was logged by a device and not manually. I believe that Bellabeat is missing a large market that they could get into. I would suggest that they introduce a smart scale that will automattically log the users weight and other measuraments into the Bellabeat app so that users could track that data more easily.
+* One of the big things that stuck out to me was that weight was only logged 67 times and only 41 of the times it was logged manually. I believe that Bellabeat is missing a large market that they could get into. I would suggest that they introduce a smart scale that will automattically log the users weight and other measuraments into the Bellabeat app so that users could track that data more easily.
 * People are less sedentary on Thursday, Friday and Saturday. These are the days that people are going out and having fun. The least active days are Sundays and Mondays. I believe that this is most likely that people on Sunday are resting for the work week and then on Monday and Tuesdays people are more tired from work because they are just getting back into the swing of things. Bellabeat could add in a feature on their application as well as the Time product that gives a reminder so people to stand up and walk around when they have not for over 2 hours. This would help the sedentary minutes go down and more active minutes to go up. 
 
